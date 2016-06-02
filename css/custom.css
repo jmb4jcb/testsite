@@ -1,0 +1,82 @@
+body{
+	 background :blue; 
+	 margin: 0px;
+	 padding:0px;
+	}
+
+#wrap{
+		border: solid 1px yellow;
+		background-color: pink;
+		width: 1024px;
+		margin: 0 auto;
+
+
+}
+#banner{
+background: gray;
+height: 100px;
+text-align: center;
+font-size: 50px;
+font-family:sans-serif;
+
+
+}
+
+nav ul {
+
+	border: solid 1px black;
+	list-style: none;
+	margin:   0px;
+	padding:  0px;
+}
+
+nav ul li{
+	border: solid 0px black;
+	width: 25%;
+	float: left; 	
+	text-align: center;
+	background: orange;
+	color:red;
+	padding-top:10px;
+	padding-bottom: 10px;
+
+}
+
+nav ul li:hover{
+
+	background-color: black;
+	color:white;
+}
+
+#contentarea{
+	clear: both;
+}
+#contentarea section{
+float: left; 
+	width: 50%;
+	background:white;
+	min-height: 500px;
+	border:solid 0px black;
+	}
+
+.content {
+	border: solid 0px black;
+	width: 50%
+	margin 0 auto;
+	padding: 30px
+}
+
+.content2 {
+	border: solid 0px black;
+	width: 50%
+	margin 0 auto;
+	padding: 30px}
+
+footer{
+	clear: both;
+	border: solid 0px black;
+	text-align: center;
+	font-family: serif;
+	font-size: 8pt;
+
+}
